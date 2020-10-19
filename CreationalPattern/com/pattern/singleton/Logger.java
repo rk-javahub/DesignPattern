@@ -27,7 +27,7 @@ public class Logger implements Cloneable {
 		return logMessage;
 	}
 
-// logMessage is set only at once.
+   // logMessage is set only at once.
 	public void setLogMessage(String logMessage) {
 		if (this.logMessage == null) {
 			this.logMessage = logMessage;
