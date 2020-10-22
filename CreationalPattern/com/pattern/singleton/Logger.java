@@ -16,7 +16,6 @@ public class Logger implements Cloneable {
 			synchronized (Logger.class) {
 				if (logger == null) {
 					logger = new Logger();
-
 				}
 			}
 		}
