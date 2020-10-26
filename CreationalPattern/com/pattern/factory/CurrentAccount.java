@@ -9,7 +9,7 @@ public class CurrentAccount implements Account {
 
 	@Override
 	public void checkDocuments() {
-		System.out.println("Documents Submitted..");
+		System.out.println("Documents Submitted for Current Account opening.");
 	}
 
 }

@@ -9,7 +9,7 @@ public class SalaryAccount implements Account {
 
 	@Override
 	public void checkDocuments() {
-		System.out.println("Documents Submitted..");
+		System.out.println("Documents Submitted for Salary account opening.");
 	}
 
 }

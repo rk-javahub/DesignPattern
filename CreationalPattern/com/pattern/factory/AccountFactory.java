@@ -4,7 +4,7 @@ package com.pattern.factory;
 public class AccountFactory {
 	static Account account;
 
-	public static Account createAccount(String accountType) {
+	public Account createAccount(String accountType) {
 		if (accountType.equals("Saving")) {
 			account = new SavingAccount();
 		} else if (accountType.equals("Current")) {
