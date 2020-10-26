@@ -7,6 +7,5 @@ public class Test {
 		Account account=accountFactory.createAccount("Saving");
 		account.fillForm();
 		account.checkDocuments();
-		
 	}
 }
